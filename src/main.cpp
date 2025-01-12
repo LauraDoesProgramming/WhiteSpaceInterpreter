@@ -10,7 +10,7 @@
 
 int main(int argc, char const *argv[]){
     if (argc < 2) {
-        std::cout << "USAGE: whitespace <file.ws>\n";
+        std::cout << "USAGE: whitespace <file.ws> [<Input>...]\n";
     }
     else {
         std::string path = std::filesystem::current_path().string() + '/' + argv[1];
